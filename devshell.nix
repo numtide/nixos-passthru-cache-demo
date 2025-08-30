@@ -1,7 +1,9 @@
 { pkgs }:
 pkgs.mkShell {
   # Add build dependencies
-  packages = [ ];
+  packages = [
+    pkgs.nixos-rebuild-ng
+  ];
 
   # Add environment variables
   env = { };

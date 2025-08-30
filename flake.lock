@@ -21,6 +21,30 @@
         "type": "github"
       }
     },
+    "nixos-passthru-cache": {
+      "inputs": {
+        "blueprint": [
+          "blueprint"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1756566382,
+        "narHash": "sha256-ynLo8ZuohfI7BN9pYzQCdpMSwDVKPImhsUxzBsbcoAY=",
+        "owner": "numtide",
+        "repo": "nixos-passthru-cache",
+        "rev": "7bca66101373da4419cfbc331c792d71d029fdb8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "ref": "nixcon2025",
+        "repo": "nixos-passthru-cache",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1756386758,
@@ -40,6 +64,7 @@
     "root": {
       "inputs": {
         "blueprint": "blueprint",
+        "nixos-passthru-cache": "nixos-passthru-cache",
         "nixpkgs": "nixpkgs"
       }
     },
